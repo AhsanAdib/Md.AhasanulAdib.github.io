@@ -1,0 +1,455 @@
+{
+  "name": "Md. Ahasanul Adib",
+  "brand": "Adib",
+  "headline": "Electrical Engineer · Power Systems, AI & Machine Learning",
+  "summary": "I'm an electrical engineer from Bangladesh, working where power systems meet machine learning. I graduated from the Islamic University of Technology (IUT) in 2024 with a BSc in Electrical and Electronic Engineering. Since then I've worked as a Junior Engineer at the Bangladesh Power Development Board (BPDB), where I turn GIS data from real distribution networks into ETAP models for load-flow and short-circuit studies. Since October 2026 I also teach undergraduate EEE courses at Anwer Khan Modern University. My research so far covers a thesis on plasmonic coupling and heat generation in silver nanoparticles, and an IEEE conference paper on deep learning for colorectal cancer diagnosis. I'm now applying for funded PhD positions (research or teaching assistantships) in power systems, AI and machine learning, renewable energy, photonics and plasmonics, and biomedical engineering.",
+  "avatar": "assets/img/adib.jpg",
+  "cv": "assets/files/Md_Ahasanul_Adib_CV.pdf",
+  "themeColor": "#0ea5e9",
+  "email": "ahasanuladib2000@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/md-ahasanul-adib-8ba9892a8/",
+  "github": "https://github.com/AhsanAdib",
+  "scholar": "https://scholar.google.com/citations?user=ZMFwk50AAAAJ&hl=en",
+  "orcid": "",
+  "researchgate": "",
+  "youtube": "",
+  "portfolios": [],
+  "researchInterests": [
+    {
+      "title": "Power Systems and AI/ML",
+      "icon": "fa-solid fa-bolt"
+    },
+    {
+      "title": "Renewable Energy",
+      "icon": "fa-solid fa-solar-panel"
+    },
+    {
+      "title": "Photonics and Plasmonics",
+      "icon": "fa-solid fa-atom"
+    },
+    {
+      "title": "Biomedical Engineering and AI",
+      "icon": "fa-solid fa-heart-pulse"
+    },
+    {
+      "title": "Power Systems",
+      "icon": "fa-solid fa-plug"
+    },
+    {
+      "title": "AI and Machine Learning",
+      "icon": "fa-solid fa-brain"
+    },
+    {
+      "title": "Communication Systems",
+      "icon": "fa-solid fa-tower-broadcast"
+    }
+  ],
+  "publications": [
+    {
+      "type": "Undergraduate Thesis",
+      "title": "Plasmonic Coupling and Thermal Effects on Photothermal Response of Randomly Distributed Nanoparticles",
+      "authors": "",
+      "venue": "BSc Thesis, Department of EEE, Islamic University of Technology",
+      "year": "",
+      "note": "Thesis",
+      "links": [
+        {
+          "label": "Project page",
+          "href": "assets/projects/project.html?i=1",
+          "icon": "fa-solid fa-arrow-up-right-from-square",
+          "self": true
+        }
+      ]
+    },
+    {
+      "type": "Conference Paper",
+      "title": "Deep Learning-Based Diagnostic Framework for Colorectal Cancer Using Histopathological Images",
+      "authors": "Ashif Al Nayem Zeesan, Sadri Islam, Abrar Fahim, Md. Ahasanul Adib, Md. Touhidul Islam, Fardin Sabahat Khan",
+      "venue": "IEEE ICAIIC 2025",
+      "year": "2025",
+      "note": "IEEE",
+      "doi": "10.1109/ICAIIC64266.2025.10920717"
+    },
+    {
+      "type": "Conference Poster",
+      "title": "Plasmonic Coupling and Thermal Effects on Photothermal Response of Randomly Distributed Nanoparticles",
+      "authors": "Hasnat Mohammad Nayeem, Abrar Fahim, Md. Ahasanul Adib",
+      "venue": "CCBES-2024, International Conference on Centennial Celebration of Bose-Einstein Statistics: A Legacy of Dhaka",
+      "year": "2024",
+      "links": [
+        {
+          "label": "View Poster",
+          "href": "data/Projects/Undergraduate Thesis - Plasmonic Nanoparticles/CCBES-2024 poster.jpg",
+          "icon": "fa-regular fa-image"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "gis-etap-distribution-modeling",
+      "title": "GIS-Based Distribution Network Modeling and Analysis Using ETAP",
+      "subtitle": "Turning GIS data from real 11 kV feeders into simulation-ready ETAP models at BPDB.",
+      "description": "Electrical distribution feeder models built in ETAP from real-world GIS data: topology, conductors, transformer ratings, line lengths and connected loads.",
+      "status": "In Progress",
+      "descriptionFile": "data/Projects/GIS-Based Distribution Modeling - BPDB/Description.md",
+      "contribution": [
+        "Extract and prepare **GIS data** in ArcGIS Pro for feeders, substations and consumers, ready for electrical system design.",
+        "Build **feeder and substation models in ETAP** from the GIS network: topology, conductor specifications, transformer ratings, line lengths and connected loads.",
+        "Prepare the models for **load-flow, voltage profile, feeder loading and short-circuit studies**."
+      ],
+      "tags": [
+        "ArcGIS Pro",
+        "ETAP",
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "slug": "plasmonic-nanoparticles-thesis",
+      "title": "Plasmonic Coupling and Thermal Effects on Photothermal Response of Randomly Distributed Nanoparticles",
+      "subtitle": "Undergraduate thesis, Islamic University of Technology.",
+      "description": "Modeled how plasmonic coupling and thermal accumulation change heat generation in randomly distributed silver nanoparticles, using DDA and the thermal Green's function.",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/Undergraduate Thesis - Plasmonic Nanoparticles/Description.md",
+      "contribution": [
+        "Used the **discrete dipole approximation (DDA)** to model electromagnetic interactions between randomly placed silver nanoparticles.",
+        "Calculated the spatial **temperature distribution** with the thermal Green's function.",
+        "Found that **plasmonic coupling** can strongly increase heating away from an isolated particle's resonance, while reducing the temperature rise at resonance."
+      ],
+      "tags": [
+        "DDA",
+        "Thermal Green's function",
+        "Computational electromagnetics"
+      ],
+      "image": "data/Projects/Undergraduate Thesis - Plasmonic Nanoparticles/main image.jpg",
+      "gallery": [
+        "data/Projects/Undergraduate Thesis - Plasmonic Nanoparticles/CCBES-2024 poster.jpg"
+      ]
+    },
+    {
+      "slug": "parkinsons-detection-ml",
+      "title": "Parkinson's Disease Detection Using Machine Learning",
+      "subtitle": "Classifying Parkinson's disease from voice measurements.",
+      "description": "Compared SVM, Logistic Regression, Gradient Boosting and an MLP on 195 voice recordings. The MLP reached 89.74% mean accuracy and a 93.22% F1-score.",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/Parkinsons Disease Detection/Description.md",
+      "tags": [
+        "Python",
+        "Scikit-learn",
+        "Pandas"
+      ],
+      "category": "Undergrad Projects"
+    },
+    {
+      "slug": "economic-load-dispatch",
+      "title": "Economic Load Dispatch Using MATLAB",
+      "subtitle": "Three methods for the cheapest generation schedule, compared.",
+      "description": "Implemented Lambda Iteration, Newton's method and Dynamic Programming in MATLAB, then compared speed and accuracy with generator limits and transmission losses.",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/Economic Load Dispatch/Description.md",
+      "tags": [
+        "MATLAB",
+        "Power systems"
+      ],
+      "category": "Undergrad Projects"
+    },
+    {
+      "slug": "pulse-width-8052",
+      "title": "Pulse Width and Frequency Measurement Using an 8052 Microcontroller",
+      "subtitle": "Frequency and duty cycle measurement with signal generation.",
+      "description": "An 8052-based system that measures frequency and duty cycle, compares two inputs and outputs a signal at their sum. A 10 kHz input read as 10,010 Hz (about 0.1% error).",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/Pulse Width and Frequency Measurement 8052/Description.md",
+      "tags": [
+        "8051 Assembly",
+        "Proteus",
+        "Arduino Mega"
+      ],
+      "category": "Undergrad Projects"
+    },
+    {
+      "slug": "sudoku-solver",
+      "title": "Sudoku Solver Using Python",
+      "subtitle": "A graphical Sudoku solver using constraint satisfaction and backtracking.",
+      "description": "An interactive PyQt5 application where users enter a puzzle and see the solution, built on constraint satisfaction, graph-based candidate selection and backtracking.",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/Sudoku Solver/Description.md",
+      "contribution": [
+        "Contributed to the **code implementation** of the solver and its interface.",
+        "Contributed to the **technical report**."
+      ],
+      "tags": [
+        "Python",
+        "PyQt5"
+      ],
+      "category": "Undergrad Projects"
+    },
+    {
+      "slug": "license-plate-recognition",
+      "title": "Automatic License Plate Recognition Using MATLAB",
+      "subtitle": "Reading plate characters from images with image processing and ANFIS.",
+      "description": "Image preprocessing, morphological operations, geometric feature extraction and ANFIS character recognition, tested on about 30 sample images.",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/License Plate Recognition/Description.md",
+      "tags": [
+        "MATLAB",
+        "ANFIS",
+        "Image processing"
+      ],
+      "category": "Undergrad Projects"
+    },
+    {
+      "slug": "regenerative-braking",
+      "title": "Regenerative Braking System Simulation in MATLAB",
+      "subtitle": "How an electric vehicle can recover braking energy.",
+      "description": "A design study of a DC shunt motor and buck converter system that recovers kinetic energy during braking and stores it.",
+      "status": "Completed",
+      "descriptionFile": "data/Projects/Regenerative Braking Simulation/Description.md",
+      "tags": [
+        "MATLAB",
+        "DC shunt motor",
+        "Buck converter"
+      ],
+      "category": "Undergrad Projects"
+    }
+  ],
+  "skillsGrouped": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        "Python (Pandas, Scikit-learn, PyQt5)",
+        "MATLAB",
+        "C",
+        "8051 Assembly",
+        "LaTeX (Overleaf)",
+        "HTML"
+      ]
+    },
+    {
+      "category": "Power Systems Software",
+      "items": [
+        "ETAP",
+        "ArcGIS Pro",
+        "PSIM",
+        "PSpice",
+        "Proteus",
+        "XG5000"
+      ]
+    },
+    {
+      "category": "Modeling and Analysis",
+      "items": [
+        "Load-flow analysis",
+        "Short-circuit analysis",
+        "Discrete dipole approximation",
+        "Thermal Green's function",
+        "Economic load dispatch"
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "items": [
+        "Transfer learning (MobileNetV2)",
+        "Classification (SVM, Gradient Boosting, MLP)",
+        "Image preprocessing",
+        "Google Colab"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Outlook",
+        "GeoGebra"
+      ]
+    },
+    {
+      "category": "Professional Skills",
+      "items": [
+        "Technical documentation",
+        "Data analysis",
+        "Stakeholder communication",
+        "Teaching and mentoring",
+        "Teamwork"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Bangladesh Power Development Board (BPDB)",
+      "location": "Dhaka, Bangladesh",
+      "position": "Junior Engineer, GIS Based Distribution Network System project",
+      "period": "Jul 2024 - Present",
+      "kind": "Project-based position",
+      "url": "https://www.bpdb.gov.bd/",
+      "highlights": [
+        "Extract GIS data across distribution zones using ArcGIS Pro and prepare feeder, substation and consumer datasets for electrical system design.",
+        "Build feeder and substation distribution network models in ETAP.",
+        "Run load-flow and short-circuit studies and write technical reports with recommendations.",
+        "Visit substations to check equipment and relay setting data against field conditions.",
+        "Work on relay coordination, voltage regulation and loss reduction, and present data-backed findings to stakeholders."
+      ],
+      "tech": [
+        "ArcGIS Pro",
+        "ETAP",
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "company": "Anwer Khan Modern University",
+      "location": "Dhaka, Bangladesh",
+      "position": "Adjunct Faculty, Department of Electrical and Electronic Engineering",
+      "period": "Oct 2026 - Present",
+      "highlights": [
+        "Electrical Circuits I / Basic Electrical Engineering (EEE 1201, theory): circuit laws and network theorems, transient and steady-state analysis, phasors and AC circuits, three-phase systems.",
+        "Basic Electrical Engineering Sessional (EEE 1202, laboratory): circuit measurements, verification of Thevenin's theorem and maximum power transfer, RLC resonance, three-phase power measurement.",
+        "Energy Conversion I (EEE 221, theory): transformers and three-phase and single-phase induction motors, equivalent circuits, tests, starting, braking and speed control.",
+        "My teaching focuses on mathematical problem-solving, theoretical foundations and practical engineering applications."
+      ]
+    },
+    {
+      "company": "Shikkhangon (Learning Academy)",
+      "location": "",
+      "position": "Tutor and Mentor",
+      "period": "Jun 2020 - Dec 2024",
+      "highlights": [
+        "Taught Physics and Mathematics and mentored students in problem-solving."
+      ],
+      "collapsed": true
+    }
+  ],
+  "education": [
+    {
+      "institution": "Islamic University of Technology (IUT)",
+      "institutionUrl": "https://www.iutoic-dhaka.edu/",
+      "location": "Gazipur, Bangladesh",
+      "degree": "BSc in Electrical and Electronic Engineering",
+      "period": "2020-01-2024-07",
+      "highlights": [
+        "CGPA: 3.50/4.00.",
+        "Thesis: Plasmonic Coupling and Thermal Effects on Photothermal Response of Randomly Distributed Nanoparticles."
+      ]
+    },
+    {
+      "institution": "Notre Dame College",
+      "location": "",
+      "degree": "Higher Secondary Certificate (HSC), Science",
+      "period": "2017-08-2019-04",
+      "highlights": [
+        "GPA: 5.00/5.00."
+      ],
+      "collapsed": true
+    },
+    {
+      "institution": "Cantonment Public School and College, Rangpur",
+      "location": "",
+      "degree": "Secondary School Certificate (SSC), Science",
+      "period": "2015-01-2017-04",
+      "highlights": [
+        "GPA: 5.00/5.00."
+      ],
+      "collapsed": true
+    }
+  ],
+  "certifications": [
+    {
+      "title": "IELTS Academic",
+      "issuer": "British Council, IDP and Cambridge University Press and Assessment",
+      "description": "Overall 7.5 (CEFR C1). Listening 8.0, Reading 8.5, Writing 6.5, Speaking 6.0. Test date: 9 October 2026. The Test Report Form is available to admissions offices on request."
+    },
+    {
+      "title": "Industrial Training, Ghorashal Training Center",
+      "issuer": "Bangladesh Power Development Board",
+      "description": "May 27 to June 1, 2023. Observed power generation and distribution operations at Ghorashal Power Station.",
+      "proof": "assets/proofs/certifications/ghorashal-industrial-training.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Annual Table Tennis Competition (Doubles)",
+      "position": "Champion",
+      "year": "2023",
+      "organizer": "Islamic University of Technology",
+      "proof": "assets/proofs/achievements/table-tennis-champion-2023.jpg"
+    },
+    {
+      "title": "IEEE ICAIIC 2025 conference paper",
+      "position": "Co-author",
+      "year": "2025",
+      "note": "A lightweight deep learning model for colon cancer classification from histopathology images."
+    },
+    {
+      "title": "SSC and HSC (Science)",
+      "position": "GPA 5.00 / 5.00 in both",
+      "year": "2019"
+    }
+  ],
+  "participation": [
+    {
+      "title": "Esonance 2023",
+      "year": "2023",
+      "role": "Organizer, Head of Gaming (Operations)",
+      "organizer": "Department of EEE, Islamic University of Technology",
+      "note": "Led operations for the Chess, FIFA and Valorant events at the department's annual fest, working with participants from several universities.",
+      "proof": "assets/proofs/participation/esonance-2023-organizer.jpg"
+    },
+    {
+      "title": "CCBES-2024",
+      "year": "2024",
+      "role": "Poster presenter",
+      "organizer": "International Conference on Centennial Celebration of Bose-Einstein Statistics",
+      "note": "Presented our work on plasmonic coupling and thermal effects in randomly distributed nanoparticles.",
+      "proof": "data/Projects/Undergraduate Thesis - Plasmonic Nanoparticles/CCBES-2024 poster.jpg"
+    },
+    {
+      "title": "IEEE ICAIIC 2025",
+      "year": "2025",
+      "role": "Paper presentation",
+      "note": "Presented our deep learning framework for colorectal cancer diagnosis from histopathology images."
+    },
+    {
+      "title": "Institute of Nuclear Science and Technology",
+      "year": "2023",
+      "role": "Industrial training",
+      "note": "Explored nuclear reactor operation, machinery and safety protocols."
+    },
+    {
+      "title": "Robi Axiata Limited",
+      "year": "2023",
+      "role": "Industrial training",
+      "note": "Worked with telecom signal-transmission operations and infrastructure integration."
+    }
+  ],
+  "supervisors": [
+    {
+      "name": "Dr. Ashik Ahmed",
+      "title": "Professor",
+      "role": "B.Sc. Advisor",
+      "affiliation": "Department of Electrical and Electronic Engineering, Islamic University of Technology (IUT)",
+      "location": "Gazipur, Bangladesh",
+      "specialization": "Power System Optimization and Control"
+    },
+    {
+      "name": "Dr. Rakibul Hasan Sagor",
+      "title": "Professor",
+      "role": "Research Supervisor",
+      "affiliation": "Department of Electrical and Electronic Engineering, Islamic University of Technology (IUT)",
+      "location": "Gazipur, Bangladesh",
+      "specialization": "Photonics, Plasmonics, High-Power Microwave"
+    },
+    {
+      "name": "Mr. Nadim Ahmed",
+      "title": "Lecturer",
+      "role": "Research Supervisor",
+      "affiliation": "Department of Electrical and Electronic Engineering, Islamic University of Technology (IUT)",
+      "location": "Gazipur, Bangladesh",
+      "specialization": "Deep Learning, Computer Vision, Biomedical Image Processing"
+    }
+  ],
+  "blog": [],
+  "gallery": [
+    "data/Gallery/Presenting at CCBES-2024.jpg"
+  ],
+  "pcbDesigns": []
+}
